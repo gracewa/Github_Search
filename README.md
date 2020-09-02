@@ -11,7 +11,7 @@ Grace Wanene
 This is a web app that allows users to search github by username
 
 ## LIVE LINK
-https://gitsearch-e934a.firebaseapp.com/?12452
+https://gitsearch-e934a.firebaseapp.com/?21388
 
 ## User Story
 - User can submit quotes.
