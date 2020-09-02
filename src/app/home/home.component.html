@@ -1,0 +1,47 @@
+<div *ngIf='profile'>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+    <h1>{{profile.login + "'s Github Profile"}}</h1> 
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-5">
+          <img src="{{profile.avatar_url}}" alt="profile photo">
+        </div>
+        <div class="col-sm-5">
+          <h2>User Stats</h2>
+          <ul class="list-group">
+          <li class="list-group-item" *ngIf="profile.public_repos">{{profile.public_repos + " Public Repositories"}}</li>
+          <li class="list-group-item">
+            <button>
+              View Profile on Github
+            </button>
+          </li>
+          <li class="list-group-item" *ngIf="profile.created_at">{{"created " + (profile.created_at | relativeTime)}}</li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div >
+
+  </div>
+  <div class="panel panel-default" id="repos">
+    <div class="panel-heading">
+      <h2>
+        Public Repositories
+      </h2>
+    </div >
+    <div class="panel-body" >
+      <div *ngFor="let repo of repos" id="eachRepo">
+      <p class="name">{{repo.name}}</p>
+      <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-warning"> View on Github </a>
+
+      </div>
+      </div>
+      
+    
+  </div>
+</div>
