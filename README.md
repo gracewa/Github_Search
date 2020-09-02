@@ -15,6 +15,7 @@ https://gitsearch-e934a.firebaseapp.com/?21388
 
 ## User Story
 --User can view the Author's github profile
+-user can search for github users
 ## Pre-requisites
 
 - Node.js
