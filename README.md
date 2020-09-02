@@ -8,7 +8,7 @@ Grace Wanene
 
 ## DESCRIPTION
 
-This is a web app that allows users to search github by username
+This is a web app that allows users to search github by username and view other public repos
 
 ## LIVE LINK
 https://gitsearch-e934a.firebaseapp.com/?21388
