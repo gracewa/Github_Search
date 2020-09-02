@@ -14,12 +14,7 @@ This is a web app that allows users to search github by username
 https://gitsearch-e934a.firebaseapp.com/?21388
 
 ## User Story
-- User can submit quotes.
-
-- User can view previously submitted quotes.
-
-- User can upvote of downvote quotes
-
+--User can view the Author's github profile
 ## Pre-requisites
 
 - Node.js
